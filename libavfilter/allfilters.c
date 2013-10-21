@@ -153,6 +153,7 @@ void avfilter_register_all(void)
     REGISTER_FILTER(LUTRGB,         lutrgb,         vf);
     REGISTER_FILTER(LUTYUV,         lutyuv,         vf);
     REGISTER_FILTER(MCDEINT,        mcdeint,        vf);
+    REGISTER_FILTER(MEMC,           memc,           vf);
     REGISTER_FILTER(MP,             mp,             vf);
     REGISTER_FILTER(MPDECIMATE,     mpdecimate,     vf);
     REGISTER_FILTER(NEGATE,         negate,         vf);
@@ -162,6 +163,7 @@ void avfilter_register_all(void)
     REGISTER_FILTER(OCV,            ocv,            vf);
     REGISTER_FILTER(OVERLAY,        overlay,        vf);
     REGISTER_FILTER(OWDENOISE,      owdenoise,      vf);
+    REGISTER_FILTER(OPRECONSTRUCT,  opreconstruct,  vf);
     REGISTER_FILTER(PAD,            pad,            vf);
     REGISTER_FILTER(PERMS,          perms,          vf);
     REGISTER_FILTER(PERSPECTIVE,    perspective,    vf);
